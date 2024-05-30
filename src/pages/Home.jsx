@@ -145,8 +145,15 @@ const Home = () => {
                 </div>
               </button>
             </form>
-            <COffcanvasTitle>HOT SEARCHES</COffcanvasTitle>
-            <div className="hot-searches-btn"></div>
+            <div className="hot-searches-contain">
+              <COffcanvasTitle>HOT SEARCHES :</COffcanvasTitle>
+              <div className="hot-searches-btn" style={{margin: "20px 0px"}}>
+                <a href="\">Plant</a>
+                <a href="\">Clock</a>
+                <a href="\">Chair</a>
+                <a href="\">Lamp</a>
+              </div>
+            </div>
           </div>
         </COffcanvasBody>
       </COffcanvas>
